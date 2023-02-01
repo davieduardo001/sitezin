@@ -1,0 +1,73 @@
+body {
+    background-color: #EEEDE7;
+    background-image: url("../imgs/wlp4.png");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#main_container {
+  background-color: #2f3e46;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+  grid-gap: 0 20px;
+}
+
+header {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+main {
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 20px;
+}
+
+aside {
+  height: 100%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+footer {
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+img.gf {
+  width: 100%;
+}
+
+h1 {
+  color: #84a98c;
+  font-size: 40px;
+}
+
+h3 {
+  color: #cad2c5;
+  font-size: 30px;
+}
+
+p {
+  color: #cad2c5;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+/*
+  #2f3e46 -> DARK GREEN
+  #354f52 -> GREY GREEN
+  #52796f -> GREEN
+  #84a98c -> WHITE GREEN
+  #cad2c5 -> WHITE
+*/
