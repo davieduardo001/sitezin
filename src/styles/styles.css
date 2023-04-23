@@ -1,3 +1,31 @@
-.bg-warning{
-    background-color: aqua;
+.bg-main {
+    background-color: #FEC260;
 }
+
+.bg {
+    background: linear-gradient(45deg, #FEC260, #A12568, #2A0944, #000000);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*
+    FEC260 = yellow
+    A12568 = wine   
+    3B185F = purple
+    2A0944 = dark-purple
+    000000 = black
+*/
