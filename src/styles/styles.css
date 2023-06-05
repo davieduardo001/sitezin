@@ -23,6 +23,21 @@
 }
 
 /*
+    Button style
+*/
+.btn_style {
+    background-color: #FEC260;
+    transition: 1s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.btn_style:hover {
+    background-color: #FEC260;
+    border-radius: 50px;
+}
+
+/*
     FEC260 = yellow
     A12568 = wine   
     3B185F = purple
