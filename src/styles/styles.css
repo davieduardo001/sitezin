@@ -64,3 +64,14 @@ a.disabled {
     display: flex;
     justify-content: center;
 }
+
+.link_to_a_post {
+    margin-top: 20px;
+}
+
+.post_link {
+    color: #adff2f;
+}
+.post_link:hover {
+    color: #f5f5f5;
+}
